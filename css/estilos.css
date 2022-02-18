@@ -74,9 +74,19 @@ body{
   --bs-gutter-x: 0.5rem;
 }
 
-.servicios__negocio__izq{
+.servicios__negocio{
+  display: grid;
   padding-left: 15px;
+  align-items: center;
+  justify-content: center;
 }
+.servicios__negocio img{
+  width: 300px;
+  height: 300px;
+  border-radius: 75%;
+}
+
+
 .funcion__izq{
   display: grid;
   align-items: center;
@@ -126,6 +136,12 @@ body{
   padding: 0;
 }
 
+.servicios{
+  
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
 .testimonios__izq{
   padding-left: 15px;
 }
@@ -215,3 +231,9 @@ footer small{
   
   }
 }
+
+@media screen and (max-width:768px){
+  
+    
+  }
+
