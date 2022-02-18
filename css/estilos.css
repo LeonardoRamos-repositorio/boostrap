@@ -1,0 +1,217 @@
+/*Estilos Generales*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+header h1{
+  color: white;
+  font-size: 1.5em;
+}
+
+header{
+  display: flex;
+}
+.container-fluid{
+  padding: 0.5rem 0.5rem;
+  background-color: #001220;
+}
+header.container-fluid{
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1em;
+}
+
+body{
+  color: black;
+  margin: 0px;
+}
+
+:root{
+  --bs-body-font-size: 0.7em;
+}
+
+.nav-link{
+  color: white;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-link:focus, .nav-link:hover{
+  color: aqua;
+}
+
+.card{
+  margin-top: 40px;
+  height: 40vh;
+  background-image: url(../img/platica.jpg) ;
+  background-size:cover;
+  background-position-x:center ;
+  background-position-y:center ;
+  align-items: center;
+}
+.btn{
+  align-items: center;
+  width: 200px;
+  height: 45px;
+}
+.funcion__terapia h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+
+.row>*{
+  padding-right: 0;
+}
+
+.row{
+  --bs-gutter-y:20px
+  --bs-gutter-x: 0.5rem;
+}
+
+.servicios__negocio__izq{
+  padding-left: 15px;
+}
+.funcion__izq{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.funcion__cto{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.funcion__dcha{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.beneficios__negocio__izq1{
+  padding-left: 15px;
+}
+.beneficios__negocio__izq2{
+  padding-left: 15px;
+}
+.disposicion__izquierda{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.disposicion__centro{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+}
+
+.disposicion__derecho{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.testimonios__izq{
+  padding-left: 15px;
+}
+
+.funcion__col{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+
+.funcion__col img{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+
+
+.blog{
+  padding: 2rem;
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  margin: 100px auto;
+}
+.blog figure{
+  width: 25%;
+}
+
+.formulario{
+  display: inline-flexbox;
+  margin: 15px 20px;
+  font-size: 2rem;
+   
+  
+}
+
+.leyenda{
+  font-size: 1.4rem;
+}
+.leyenda p {
+  font-size: 1.4rem;
+}
+
+footer small{
+  font-size: 1.5rem;
+}
+
+.redes img{
+  margin: 15px auto;
+  width: 25px;
+}
+
+@media screen and (max-width:425px) {
+  .blog__terapia{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 5rem;
+    flex-wrap: wrap;
+    margin: 100px auto;
+  }
+  .funcion__descrip{
+    padding: 2rem;
+   
+  }
+  .servicios__descrip{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .testigo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  
+  .beneficios__descrip{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  
+  }
+}
