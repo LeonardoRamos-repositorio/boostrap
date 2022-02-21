@@ -52,9 +52,9 @@ body{
   align-items: center;
 }
 .btn{
-  align-items: center;
+  
   width: 200px;
-  height: 45px;
+  height: 60px;
 }
 .funcion__terapia h2{
   display: flex;
@@ -63,7 +63,18 @@ body{
   margin-top: 30px;
 }
 
-
+.servicios__negocio__izq{
+  display: grid;
+  
+  justify-content: center;
+  
+}
+  
+.servicios__negocio__izq img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
 
 .row>*{
   padding-right: 0;
@@ -81,9 +92,13 @@ body{
   justify-content: center;
 }
 .servicios__negocio img{
-  width: 300px;
-  height: 300px;
-  border-radius: 75%;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-size:cover;
+  background-position-x:center ;
+  background-position-y:center ;
+  align-items: center;
 }
 
 
@@ -92,6 +107,7 @@ body{
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .funcion__cto{
@@ -137,7 +153,7 @@ body{
 }
 
 .servicios{
-  
+ 
   align-items: center;
   justify-content: center;
   padding: 10px;
