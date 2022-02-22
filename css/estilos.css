@@ -30,7 +30,7 @@ body{
 }
 
 :root{
-  --bs-body-font-size: 0.7em;
+  --bs-body-font-size: 0.9em;
 }
 
 .nav-link{
@@ -83,6 +83,7 @@ body{
 .row{
   --bs-gutter-y:20px
   --bs-gutter-x: 0.5rem;
+  
 }
 
 .servicios__negocio{
